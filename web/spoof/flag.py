@@ -1,0 +1,1 @@
+FLAG = "byuctf{le4rning_to_spoof_inform4tion_in_web_is_important!}"

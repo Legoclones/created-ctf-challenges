@@ -1,0 +1,42 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 3rem 0;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    background-color: #fff5e4;
+    color: #7c4657;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+h1, h2, p {
+    margin: 3rem 0;
+}
+
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+hr {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 2px;
+    margin: 3rem 0 5rem -50vw;
+    left: 50%;
+    border: none;
+    border-bottom: 2px dashed rgba(#7c4657, .25);
+    float: left;
+}
+#command {
+    background-color:lightgray;
+    border: 1px dotted black;
+    padding:10px;
+}

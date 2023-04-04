@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>De0bfuscate</title>
+</head>
+
+<body>
+    <h2>Insert flag below to check and see if it's correct</h2>
+    <label for="flag">Flag: </label>
+    <input type="text" name="flag" id="flag" autofocus><br><br>
+    <button onclick="check()">Check flag</button><br>
+
+    <div id="output"></div>
+</body>
+
+</html>
+
+
+<script>
+// ctf{learning_t0_leverage_unic0de_helps_in_0bfuscati0n}
+
+function xorEncode(txt, pass) {
+    var ord = [];
+    var buf = "";
+    for (z = 1; z <= 255; z++) {ord[String.fromCharCode(z)] = z}
+    for (j = z = 0; z < txt.length; z++) {
+        buf += String.fromCharCode(ord[txt.substr(z, 1)] ^ ord[pass.substr(j, 1)]);
+        j = (j < pass.length) ? j + 1 : 0;
+    }
+    return buf
+}
+
+function check() {
+    input = document.getElementById('flag').value;
+    if (input == xorEncode('[DfC\\eYBnQ^ggD0g\\eNUrYWegEnQS0\\U_PUlHC_Q^_\bRfMCcYDi\b^}',"80")) {
+        document.getElementById("output").textContent = "Success!!";
+    }
+    else {
+        document.getElementById("output").textContent = "Wrong flag :(";
+    }
+}
+</script>

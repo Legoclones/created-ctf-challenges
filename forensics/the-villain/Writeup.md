@@ -1,0 +1,4 @@
+# The Villain Writeup
+Inspecting the metadata for the screenshot provided will show a comment with the [URL for the Google Doc pictured](https://docs.google.com/document/d/1BnPoqSl7GQOST__5iR7Xv7lYB8kSIxFsLYSq9PXaJFY/edit) (use the command `exiftool`). If you highlight all the text on the page, you'll notice that the name "Astoria Villin" is mentioned there in white text (oooooh hiddennnnnnn). If you look her up on Twitter, you'll find her account (https://twitter.com/AstoriaVillin). The password for the ZIP folder is based on her life, so if you try the value `HoppyBoi` as the password, the flag will be revealed in the resulting image.
+
+**Flag** - `byuctf{b3t_Y0U_c4nt_f1nd_D33ZNU7S!}`

@@ -1,0 +1,18 @@
+services:
+  postgresql:
+    build: postgresql_build/.
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgresql_build/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      - POSTGRES_PASSWORD=tuiuiqxcugomqzxftelsmpfvbsjbkjre
+  grafana:
+    build: grafana_build/.
+    ports:
+      - "40010:3000"
+    volumes:
+      - ./grafana_build/grafana.ini:/etc/grafana/grafana.ini
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=miloxgxhcamdtsgmkjuaoqegwuywlyjq
