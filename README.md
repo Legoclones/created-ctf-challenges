@@ -12,19 +12,31 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Overflow](binary-exploitation/overflow/) (BYU EOS CTF Fall 2022) - easy
 * [Ret2win](binary-exploitation/ret2win/) (BYU EOS CTF Fall 2022) - easy
 * [Pwntools](binary-exploitation/pwntools/) (BYU EOS CTF Fall 2022) - easy
+* [2038](binary-exploitation/2038/) (BYUCTF 2023) - easy
 * [Redirection](binary-exploitation/redirection/) (BYU EOS CTF Fall 2022) - medium
 * [Pie](binary-exploitation/pie/) (BYU EOS CTF Fall 2022) - medium
+* [vsf1](binary-exploitation/vfs1/) (BYUCTF 2023) - medium
+* [shellcode](binary-exploitation/shellcode/) (BYUCTF 2023) - medium
+* [frorg](binary-exploitation/frorg/) (BYUCTF 2023) - hard
 
 ### Cryptography
 * [Dit Dah](cryptography/ditdah/) (BYU EOS CTF Fall 2021) - intro
 * [Simple](cryptography/simple/) (BYU EOS CTF Fall 2021) - intro
 * [A-A-Ron](cryptography/a-aron/) (BYU EOS CTF Winter 2022) - easy
+* [RSA1](cryptography/rsa1/) (BYUCTF 2023) - easy
+* [Compact](cryptography/compact/) (BYUCTF 2023) - easy
 * [Too Many Times](cryptography/toomanytimes/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - medium
 * [One Time Pad](cryptography/onetimepad/) (BYU EOS CTF Winter 2022) - medium
+* [RSA2](cryptography/rsa2/) (BYUCTF 2023) - medium
+* [RSA3](cryptography/rsa3/) (BYUCTF 2023) - medium
+* [Poem](cryptography/poem/) (BYUCTF 2023) - medium
 * [Wiki Game](cryptography/wikigame/) (BYU EOS CTF Fall 2021) - hard
+* [RSA4](cryptography/rsa4/) (BYUCTF 2023) - hard
+* [RSA5](cryptography/rsa5/) (BYUCTF 2023) - hard
 
 ### Forensics
 * [Liam's Idea](forensics/liams-idea/) (BYU EOS CTF Winter 2022) - easy
+* [kcpasswd](forensics/kcpassword/) (BYUCTF 2023) - easy
 * [Access](forensics/access/) (BYU EOS CTF Winter 2022) - medium
 * [The Villain](forensics/the-villain/) (BYUCTF 2022) - medium
 * [.bash_history](forensics/bash_history/) (BYU EOS CTF Fall 2021) - medium
@@ -32,12 +44,20 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Wordpress](forensics/wordpress/) (BYU EOS CTF Fall 2021) - medium
 * [PNG](forensics/png/) (BYU EOS CTF Fall 2022) - hard
 * [zip](forensics/zip/) (BYU EOS CTF Fall 2022) - hard
+* [CRConfusion](forensics/CRConfusion/) (BYUCTF 2023) - hard
 
 ### Jail
 * [Python Jail 1](jail/python_jail_1/) (BYU EOS CTF Fall 2021) - easy
 * [Python Jail 2](jail/python_jail_2/) (BYU EOS CTF Fall 2021) - easy
+* [Leet 1](jail/leet1/) (BYUCTF 2023) - easy
+* [Leet 2](jail/leet2/) (BYUCTF 2023) - easy
 * [Python Jail 3](jail/python_jail_3/) (BYU EOS CTF Fall 2021) - medium
 * [Python Jail 4](jail/python_jail_4/) (BYU EOS CTF Fall 2021) - medium
+* [Builtins 1](jail/builtins-1/) (BYUCTF 2023) - medium
+* [abcdefghijklm](jail/abcdefghijklm/) (BYUCTF 2023) - medium
+* [nopqrstuvwxyz](jail/nopqrstuvwxyz/) (BYUCTF 2023) - medium
+* [a-z0-9](jail/a-z0-9/) (BYUCTF 2023) - hard
+* [Builtins 2](jail/builtins-2/) (BYUCTF 2023) - hard
 
 ### Miscellaneous
 * [ASCII Art](miscellaneous/ascii-art/) (BYU EOS CTF Winter 2022) - easy
@@ -53,7 +73,18 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Composer 2](miscellaneous/composer2/) (BYU EOS CTF Fall 2021) - medium
 * [Roblox2](miscellaneous/roblox2/) (BYU EOS CTF Fall 2022) - medium
 * [Makes](miscellaneous/makes/) (BYUCTF 2022) - medium
+* [PBKDF2](miscellaneous/PBKDF2/) (BYUCTF 2023) - medium
+* [xkcd 2637](miscellaneous/xkcd-2637/) (BYUCTF 2023) - medium
 * [Country](miscellaneous/country/) (BYU EOS CTF Fall 2021) - hard
+* [Collision](miscellaneous/collision/) (BYUCTF 2023) - hard
+
+### OSINT
+* [Legoclones 1](OSINT/legoclones/) (BYUCTF 2023) - easy
+* [Legoclones 4](OSINT/legoclones/) (BYUCTF 2023) - medium
+* [Legoclones 5](OSINT/legoclones/) (BYUCTF 2023) - medium
+* [TOR](OSINT/tor/) (BYUCTF 2023) - medium
+* [Legoclones 2](OSINT/legoclones/) (BYUCTF 2023) - hard
+* [Legoclones 3](OSINT/legoclones/) (BYUCTF 2023) - hard
 
 ### Password Cracking
 * [MD5](password-cracking/md5/) (BYU EOS CTF Fall 2021) - easy
@@ -69,15 +100,23 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 ### Reverse Engineering
 * [Python intro](reverse-engineering/pythonintro/) (BYU EOS CTF Winter 2022) - intro
 * [Binary](reverse-engineering/binary/) (BYU EOS CTF Fall 2021) - easy
+* [obfuscJStor](reverse-engineering/obfuscJStor/) (BYUCTF 2023) - easy
+* [Ducky 1](reverse-engineering/ducky1/) (BYUCTF 2023) - easy
 * [Stone moon](reverse-engineering/stone/) (BYU EOS CTF Winter 2022) - medium
 * [Arr](reverse-engineering/arr/) (BYU EOS CTF Fall 2021) - medium
 * [Symbolless](reverse-engineering/symbolless/) (BYU EOS CTF Fall 2022) - medium
 * [Python VM](reverse-engineering/python_vm/) (BYU EOS CTF Fall 2022) - medium
+* [Ducky 2](reverse-engineering/ducky2/) (BYUCTF 2023) - medium
+* [Ducky 3](reverse-engineering/ducky3/) (BYUCTF 2023) - medium
+* [Chain](reverse-engineering/chain/) (BYUCTF 2023) - medium
+* [go](reverse-engineering/go/) (BYUCTF 2023) - medium
 * [Bad](reverse-engineering/bad/) (BYU EOS CTF Fall 2021) - hard
 * [Web Bad](reverse-engineering/web_bad/) (BYU EOS CTF Fall 2021) - hard
 * [XOR](reverse-engineering/xor/) (BYU EOS CTF Fall 2021) - hard
 * [e](reverse-engineering/e/) (BYU EOS CTF Fall 2022) - hard
 * [Chicken](reverse-engineering/chicken/) (BYUCTF 2022) - hard
+* [bad2](reverse-engineering/bad2/) (BYUCTF 2023) - hard
+* [sassie](reverse-engineering/sassie/) (BYUCTF 2023) - hard
 
 ### Steganography
 * [Incorrect](steganography/incorrect/) (BYU EOS CTF Fall 2021) - easy
@@ -100,10 +139,17 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Please Avoid](web/pleaseavoid/) (BYU EOS CTF Fall 2021) - easy
 * [Hidden](web/hidden/) (BYU EOS CTF Winter 2022) - easy
 * [Spoof](web/spoof/) (BYU EOS CTF Winter 2022) - easy
+* [urmombotnetdotnet.com 1](web/urmombotnetdotnet.com/Chall1.md) (BYUCTF 2023) - easy
 * [Brid](web/brid/) (BYU EOS CTF Fall 2021) - medium
 * [Command](web/command/) (BYU EOS CTF Fall 2022) - medium
 * [Fragment](web/fragment/) (BYU EOS CTF Winter 2022) - medium
 * [Fetaverse](web/fetaverse/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - medium
 * [Social Media](web/socialmedia/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - medium
+* [urmombotnetdotnet.com 2](web/urmombotnetdotnet.com/Chall2.md) (BYUCTF 2023) - medium
+* [urmombotnetdotnet.com 3](web/urmombotnetdotnet.com/Chall3.md) (BYUCTF 2023) - medium
+* [Notes](web/notes) (BYUCTF 2023) - medium
 * [Social Media 2](web/socialmedia2/) (BYU EOS CTF Winter 2022) - hard
 * [Grafana](web/grafana/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - hard
+* [urmombotnetdotnet.com 4](web/urmombotnetdotnet.com/Chall4.md) (BYUCTF 2023) - hard
+* [urmombotnetdotnet.com 5](web/urmombotnetdotnet.com/Chall5.md) (BYUCTF 2023) - hard
+* [HUUP](web/HUUP/) (BYUCTF 2023) - hard

