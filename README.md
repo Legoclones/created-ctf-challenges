@@ -42,6 +42,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [.bash_history](forensics/bash_history/) (BYU EOS CTF Fall 2021) - medium
 * [Routing](forensics/routing/) (BYU EOS CTF Fall 2021) - medium
 * [Wordpress](forensics/wordpress/) (BYU EOS CTF Fall 2021) - medium
+* [Infected](forensics/infected/) (SekaiCTF 2023) - medium
 * [PNG](forensics/png/) (BYU EOS CTF Fall 2022) - hard
 * [zip](forensics/zip/) (BYU EOS CTF Fall 2022) - hard
 * [CRConfusion](forensics/CRConfusion/) (BYUCTF 2023) - hard
@@ -77,6 +78,11 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [xkcd 2637](miscellaneous/xkcd-2637/) (BYUCTF 2023) - medium
 * [Country](miscellaneous/country/) (BYU EOS CTF Fall 2021) - hard
 * [Collision](miscellaneous/collision/) (BYUCTF 2023) - hard
+
+### Network Exploitation
+* [Home Network 1](https://github.com/Legoclones/RTVCTF-2023-challenges?tab=readme-ov-file#name-home-network--001) (RTVCTF 2023 @ DEFCON 31) - CVE exploitation, easy
+* [Home Network 2](https://github.com/Legoclones/RTVCTF-2023-challenges?tab=readme-ov-file#name-home-network--002) (RTVCTF 2023 @ DEFCON 31) - Network exploitation, hard
+* [Home Network 3](https://github.com/Legoclones/RTVCTF-2023-challenges?tab=readme-ov-file#name-home-network--003) (RTVCTF 2023 @ DEFCON 31) - Web/pwn problem, hard
 
 ### OSINT
 * [Legoclones 1](OSINT/legoclones/) (BYUCTF 2023) - easy
