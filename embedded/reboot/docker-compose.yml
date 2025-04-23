@@ -1,0 +1,8 @@
+services:
+  reboot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1358:40000"
+    read_only: true

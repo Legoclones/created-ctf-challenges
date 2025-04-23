@@ -1,0 +1,7 @@
+services:
+  gargantuan:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1352:40000"

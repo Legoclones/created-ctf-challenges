@@ -1,0 +1,11 @@
+services:
+  netstat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1353:22"
+    read_only: true
+    tmpfs:
+      - /dev/shm:ro
+    cpus: 4

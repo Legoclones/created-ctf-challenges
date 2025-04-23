@@ -1,0 +1,1 @@
+byuctf{glaD_you_c0uld_improvise_ROP_with_no_provided_gadgets!}

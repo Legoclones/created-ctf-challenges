@@ -1,0 +1,8 @@
+services:
+  triplewhammy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "40003:1337"
+      - "40004:1336"

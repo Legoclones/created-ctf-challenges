@@ -1,0 +1,14 @@
+services:
+  mipscode_level1:
+    build:
+      context: ./level1/
+      dockerfile: Dockerfile
+    ports:
+      - "1356:40000"
+      
+  mipscode_level2:
+    build:
+      context: ./level2/
+      dockerfile: Dockerfile
+    ports:
+      - "1357:40000"

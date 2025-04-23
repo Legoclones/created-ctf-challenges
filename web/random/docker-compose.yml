@@ -1,0 +1,9 @@
+services:
+  random:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - directory=${DIRECTORY:-/in_prod_this_is_random}
+    ports:
+      - "40005:1337"

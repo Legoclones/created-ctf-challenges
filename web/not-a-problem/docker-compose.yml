@@ -1,0 +1,8 @@
+services:
+  notaproblem:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "40001:1337"
+      - "40002:1336"
