@@ -147,7 +147,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [sassie](reverse-engineering/sassie/) (BYUCTF 2023) - hard
 * [Musles](reverse-engineering/musles/) (BYUCTF 2024) - hard
 * [Verse](reverse-engineering/verse/) (BYUCTF 2024) - hard
-* [Magnum Opus](reverse-engineering) (SekaiCTF 2024) - very hard
+* [Magnum Opus](reverse-engineering/magnum-opus/) (SekaiCTF 2024) - very hard
 
 ### Steganography
 * [Incorrect](steganography/incorrect/) (BYU EOS CTF Fall 2021) - easy
@@ -179,12 +179,12 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [urmombotnetdotnet.com 2](web/urmombotnetdotnet.com/Chall2.md) (BYUCTF 2023) - medium
 * [urmombotnetdotnet.com 3](web/urmombotnetdotnet.com/Chall3.md) (BYUCTF 2023) - medium
 * [Notes](web/notes) (BYUCTF 2023) - medium
-* [Not a Problem](web/not-a-problem/) - medium
+* [Not a Problem](web/not-a-problem/) (BYUCTF 2024) - medium
 * [Social Media 2](web/socialmedia2/) (BYU EOS CTF Winter 2022) - hard
 * [Grafana](web/grafana/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - hard
 * [urmombotnetdotnet.com 4](web/urmombotnetdotnet.com/Chall4.md) (BYUCTF 2023) - hard
 * [urmombotnetdotnet.com 5](web/urmombotnetdotnet.com/Chall5.md) (BYUCTF 2023) - hard
 * [HUUP](web/HUUP/) (BYUCTF 2023) - hard
-* [Argument](web/argument/) - hard
-* [Random](web/random/) - hard
-* [Triple Whammy](web/triple-whammy/) - hard
+* [Argument](web/argument/) (BYUCTF 2024) - hard
+* [Random](web/random/) (BYUCTF 2024) - hard
+* [Triple Whammy](web/triple-whammy/) (BYUCTF 2024) - hard
