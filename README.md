@@ -3,6 +3,8 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 
 *Note - EOS means "end of semester", or a BYU-only CTF that was held (surprisingly) towards the end of the semester*
 
+*Note2 - all "difficulty" ratings are probably somewhat arbitrary and are from the perspective of someone new to a category*
+
 ## Categories
 ### Binary Exploitation (pwn)
 * [Library](binary-exploitation/library/) (BYU EOS CTF Fall 2022) - intro
@@ -24,11 +26,14 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [vsf1](binary-exploitation/vfs1/) (BYUCTF 2023) - medium
 * [shellcode](binary-exploitation/shellcode/) (BYUCTF 2023) - medium
 * [All](binary-exploitation/all/) (BYUCTF 2024) - medium
+* [MIPS](binary-exploitation/mips/) (BYUCTF 2025) - medium
 * [frorg](binary-exploitation/frorg/) (BYUCTF 2023) - hard
 * [Directory](binary-exploitation/directory/) (BYUCTF 2024) - hard
 * [Gargantuan](binary-exploitation/gargantuan/) (BYUCTF 2024) - hard
 * [Numbersss](binary-exploitation/numbersss/) (BYUCTF 2024) - hard
 * [Static](binary-exploitation/static/) (BYUCTF 2024) - hard
+* [Goat](binary-exploitation/goat/) (BYUCTF 2025) - hard
+* [TCL](binary-exploitation/tcl/) (BYUCTF 2025) - very hard
 
 ### Cryptography
 * [Dit Dah](cryptography/ditdah/) (BYU EOS CTF Fall 2021) - intro
@@ -180,6 +185,8 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [urmombotnetdotnet.com 3](web/urmombotnetdotnet.com/Chall3.md) (BYUCTF 2023) - medium
 * [Notes](web/notes) (BYUCTF 2023) - medium
 * [Not a Problem](web/not-a-problem/) (BYUCTF 2024) - medium
+* [JWTF](web/jwtf/) (BYUCTF 2025) - medium
+* [Willy Wonka Web](web/wonka/) (BYUCTF 2025) - medium
 * [Social Media 2](web/socialmedia2/) (BYU EOS CTF Winter 2022) - hard
 * [Grafana](web/grafana/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - hard
 * [urmombotnetdotnet.com 4](web/urmombotnetdotnet.com/Chall4.md) (BYUCTF 2023) - hard
