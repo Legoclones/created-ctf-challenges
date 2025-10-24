@@ -12,6 +12,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [env](binary-exploitation/env/) (BYU EOS CTF Fall 2022) - intro
 * [Start](binary-exploitation/start/) (BYU EOS CTF Fall 2022) - intro
 * [Gort](binary-exploitation/gort/) (BYU EOS CTF Fall 2024) - intro
+* [Pwn 100](binary-exploitation/pwn100/) (SAINTCON Hackers Challenge 2025) - intro
 * [Overflow](binary-exploitation/overflow/) (BYU EOS CTF Fall 2022) - easy
 * [Ret2win](binary-exploitation/ret2win/) (BYU EOS CTF Fall 2022) - easy
 * [Pwntools](binary-exploitation/pwntools/) (BYU EOS CTF Fall 2022) - easy
@@ -21,12 +22,14 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [2038](binary-exploitation/2038/) (BYUCTF 2023) - easy
 * [Gorl](binary-exploitation/gorl/) (BYU EOS CTF Fall 2024) - easy
 * [Goal](binary-exploitation/goal/) (BYU EOS CTF Fall 2024) - easy
+* [Pwn 101](binary-exploitation/pwn101/) (SAINTCON Hackers Challenge 2025) - easy
 * [Redirection](binary-exploitation/redirection/) (BYU EOS CTF Fall 2022) - medium
 * [Pie](binary-exploitation/pie/) (BYU EOS CTF Fall 2022) - medium
 * [vsf1](binary-exploitation/vfs1/) (BYUCTF 2023) - medium
 * [shellcode](binary-exploitation/shellcode/) (BYUCTF 2023) - medium
 * [All](binary-exploitation/all/) (BYUCTF 2024) - medium
 * [MIPS](binary-exploitation/mips/) (BYUCTF 2025) - medium
+* [Pwn 201](binary-exploitation/pwn201/) (SAINTCON Hackers Challenge 2025) - medium
 * [frorg](binary-exploitation/frorg/) (BYUCTF 2023) - hard
 * [Directory](binary-exploitation/directory/) (BYUCTF 2024) - hard
 * [Gargantuan](binary-exploitation/gargantuan/) (BYUCTF 2024) - hard
@@ -34,6 +37,16 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Static](binary-exploitation/static/) (BYUCTF 2024) - hard
 * [Goat](binary-exploitation/goat/) (BYUCTF 2025) - hard
 * [TCL](binary-exploitation/tcl/) (BYUCTF 2025) - very hard
+
+#### Pwn + Forensics
+* [Porensics 1](binary-exploitation/porensics1/) (SAINTCON Hackers Challenge 2025) - medium
+* [Porensics 2](binary-exploitation/porensics2/) (SAINTCON Hackers Challenge 2025) - hard
+
+### Blockchain (web3)
+* [Blockchain 100](./blockchain/blockchain100/) (SAINTCON Hackers Challenge 2025) - intro
+* [Blockchain 101](./blockchain/blockchain101/) (SAINTCON Hackers Challenge 2025) - easy
+* [Blockchain 201](./blockchain/blockchain201/) (SAINTCON Hackers Challenge 2025) - medium
+* [Blockchain 301](./blockchain/blockchain301/) (SAINTCON Hackers Challenge 2025) - medium
 
 ### Cryptography
 * [Dit Dah](cryptography/ditdah/) (BYU EOS CTF Fall 2021) - intro
@@ -93,6 +106,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Roblox](miscellaneous/roblox/) (BYU EOS CTF Fall 2022) - easy
 * [Program](miscellaneous/program/) (BYU EOS CTF Fall 2021) - easy
 * [Name](miscellaneous/name/) (BYU EOS CTF Fall 2021) - easy
+* [Protocol](miscellaneous/protocol/) (SAINTCON Hackers Challenge 2025) - easy
 * [Linked domain](miscellaneous/linkeddomain/) (BYU EOS CTF Fall 2021) - medium
 * [Composer 2](miscellaneous/composer2/) (BYU EOS CTF Fall 2021) - medium
 * [Wiki Game](miscellaneous/wikigame/) (BYU EOS CTF Fall 2021) - medium
@@ -123,6 +137,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [NTLM](password-cracking/ntlm/) (BYU EOS CTF Fall 2021) - easy
 * [Guessy](password-cracking/guessy/) (BYU EOS CTF Fall 2021) - medium
 * [Fruits](password-cracking/fruits/) (BYU EOS CTF Fall 2021) - medium
+* [Rho](password-cracking/rho/) (SAINTCON Hackers Challenge 2025) - medium
 * [Wordlist](password-cracking/wordlist/) (BYU EOS CTF Fall 2021) - hard
 * [Winword](password-cracking/winword/) (BYU EOS CTF Fall 2021) - hard
 * [Personal](password-cracking/personal/) (BYU EOS CTF Fall 2021) - hard
@@ -152,6 +167,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [sassie](reverse-engineering/sassie/) (BYUCTF 2023) - hard
 * [Musles](reverse-engineering/musles/) (BYUCTF 2024) - hard
 * [Verse](reverse-engineering/verse/) (BYUCTF 2024) - hard
+* [ඞ](reverse-engineering/amongus/) (SAINTCON Hackers Challenge 2025) - hard
 * [Magnum Opus](reverse-engineering/magnum-opus/) (SekaiCTF 2024) - very hard
 
 ### Steganography
@@ -176,6 +192,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Hidden](web/hidden/) (BYU EOS CTF Winter 2022) - easy
 * [Spoof](web/spoof/) (BYU EOS CTF Winter 2022) - easy
 * [urmombotnetdotnet.com 1](web/urmombotnetdotnet.com/Chall1.md) (BYUCTF 2023) - easy
+* [Middleware](web/middleware/) (SAINTCON Hackers Challenge 2025) - easy
 * [Brid](web/brid/) (BYU EOS CTF Fall 2021) - medium
 * [Command](web/command/) (BYU EOS CTF Fall 2022) - medium
 * [Fragment](web/fragment/) (BYU EOS CTF Winter 2022) - medium
@@ -187,6 +204,7 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Not a Problem](web/not-a-problem/) (BYUCTF 2024) - medium
 * [JWTF](web/jwtf/) (BYUCTF 2025) - medium
 * [Willy Wonka Web](web/wonka/) (BYUCTF 2025) - medium
+* [WebAuthn 1](web/webauthn1-2/) (SAINTCON Hackers Challenge 2025) - medium
 * [Social Media 2](web/socialmedia2/) (BYU EOS CTF Winter 2022) - hard
 * [Grafana](web/grafana/) (BYU EOS CTF Winter 2022, BYUCTF 2022) - hard
 * [urmombotnetdotnet.com 4](web/urmombotnetdotnet.com/Chall4.md) (BYUCTF 2023) - hard
@@ -195,3 +213,5 @@ This is a comprehensive list of all the CTF challenges I've created for CTFs I'v
 * [Argument](web/argument/) (BYUCTF 2024) - hard
 * [Random](web/random/) (BYUCTF 2024) - hard
 * [Triple Whammy](web/triple-whammy/) (BYUCTF 2024) - hard
+* [WebAuthn 2](web/webauthn1-2/) (SAINTCON Hackers Challenge 2025) - hard
+* [WebAuthn 3](web/webauthn3/) (SAINTCON Hackers Challenge 2025) - hard

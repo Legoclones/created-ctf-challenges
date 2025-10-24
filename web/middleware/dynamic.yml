@@ -1,0 +1,32 @@
+http:
+  routers:
+    welcome-router:
+      rule: "Host(`middleware-5.youcanhack.me`) && PathPrefix(`/welcome`)"
+      entryPoints:
+        - websecure
+      service: app-svc
+      tls:
+        certResolver: letsencrypt
+
+    admin-router:
+      rule: "Host(`middleware-5.youcanhack.me`) && PathPrefix(`/admin`)"
+      entryPoints:
+        - websecure
+      service: app-svc
+      middlewares:
+        - admin-auth
+      tls:
+        certResolver: letsencrypt
+
+  services:
+    app-svc:
+      loadBalancer:
+        servers:
+          - url: "http://app:80"
+
+  middlewares:
+    admin-auth:
+      basicAuth:
+        users:
+          # NOTE - randomly-generated password
+          - "admin:$apr1$.4IqMZjO$wbuG5T5D7mJyPj9U5peQ00"

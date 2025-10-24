@@ -1,0 +1,21 @@
+I have provided a blockchain/web3 contract written in Solidity. You are also provided with a
+website endpoint. The site gives you a nice interface to spin up an instance of blockchain
+infrastructure for you (and only you!). In order to gain access to your own infra, you need
+to first solve a Proof of Work (bottom left box). You can either run the provided command in
+the terminal, or press "Solve in Browser". Put the solution in the "Solution" box, and when
+you submit it, it will allow you to spawn an instance using "Launch".
+
+When you launch the infrastructure, you'll be provided 4 pieces of information:
+- A URL to interact with the blockchain infrastructure
+- Your private key to your own account we made for you
+- The address of the Blockchain101.sol contract we deployed
+- The address of your wallet (which your privkey authenticates you to)
+
+The goal is to have the `isSolved()` function to return True to get the flag. As you can see,
+the only way to get that to happen is to set `chall_solved` to be True, which requires you
+calling the `solveChall()` function with the right argument.
+
+Now you need to make that happen. Once you've solved it, go back to the web interface and
+click the "Flag" button. If `isSolved()` returns True, it'll give you the flag. 
+
+I'd suggest looking at Python's web3 or foundpy libraries, along with https://remix.ethereum.org.
